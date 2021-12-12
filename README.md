@@ -2,8 +2,6 @@
 ![](https://cloudflare-ipfs.com/ipfs/QmX6BtuiAQmjLpbqzyBWxRieR4PxSquCzjuFd3vsr1fAGj)
 ###### image source([ethereum](https://ethereum.org/))
 
-<br>
-
 # Full stack Ethereum starter
 
 ## Stack
@@ -15,15 +13,15 @@
  - Playwright Test Suite
  - Github workflow and renovate bot
  - ESlint and Prettier
+ - Path aliases
  - Notification Toaster and Helpers
  - and more...
 
 ## Use the template
 
 You can either clone the repository or use this template to kick-start your project.
-
 ```
-git clone https://github.com/sasicodes/next-eth.git
+npx create-next-app -e https://github.com/sasicodes/next-eth
 ```
 
 Install all dependencies,
