@@ -38,6 +38,12 @@ export default function Home() {
         currentAccount={currentAccount}
         setCurrentAccount={setCurrentAccount}
       />
+      <div className="grid h-screen place-items-center">
+        <div>
+          Open <span className="italic font-bold">`src/pages/index.tsx`</span>{' '}
+          and start building
+        </div>
+      </div>
     </div>
   )
 }

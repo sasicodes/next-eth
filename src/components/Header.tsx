@@ -30,7 +30,7 @@ const Header: React.FC<Props> = ({ currentAccount, setCurrentAccount }) => {
   }
 
   return (
-    <header className="sticky top-0 left-0 right-0 z-10 flex items-center justify-between p-4 bg-opacity-50 backdrop-filter backdrop-blur lg:px-12 lg:py-4">
+    <header className="fixed top-0 left-0 right-0 z-10 flex items-center justify-between p-4 bg-opacity-50 backdrop-filter backdrop-blur lg:px-12 lg:py-4">
       <div>
         <Link href="/">
           <a className="flex items-center space-x-2 text-xl ">
