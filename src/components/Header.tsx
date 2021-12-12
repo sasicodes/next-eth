@@ -1,8 +1,7 @@
+import shortenAddress from '@utils/helpers/shortenAddress'
 import Link from 'next/link'
 import { useState } from 'react'
 import toast from 'react-hot-toast'
-
-import shortenAddress from '../utils/helpers/shortenAddress'
 
 type Props = {
   currentAccount: string

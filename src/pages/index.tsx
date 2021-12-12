@@ -1,7 +1,6 @@
+import Header from '@components/Header'
 import { useEffect, useState } from 'react'
 import toast from 'react-hot-toast'
-
-import Header from '../components/Header'
 
 declare global {
   interface Window {

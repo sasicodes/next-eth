@@ -43,6 +43,9 @@ jobs:
 
       - name: Typecheck
         run: yarn typecheck
+      
+      - name: Double check
+        run: npx playwright install && yarn test
 
       - name: Build
         env:
