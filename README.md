@@ -1,8 +1,44 @@
-# Basic Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+![](https://cloudflare-ipfs.com/ipfs/QmX6BtuiAQmjLpbqzyBWxRieR4PxSquCzjuFd3vsr1fAGj)
+###### image source([ethereum](https://ethereum.org/))
 
-Try running some of the following tasks:
+<br>
+
+# Full stack Ethereum starter
+
+## Stack
+ - NextJs
+ - TailwindCSS
+ - Typescript
+ - Hardhat
+ - Ethers
+ - Playwright Test Suite
+ - Github workflow and renovate bot
+ - ESlint and Prettier
+ - Notification Toaster and Helpers
+ - and more...
+
+## Use the template
+
+You can either clone the repository or use this template to kick-start your project.
+
+```
+git clone https://github.com/sasicodes/next-eth.git
+```
+
+Install all dependencies,
+
+```
+yarn install
+```
+
+and run the application using,
+
+```
+yarn dev
+```
+
+Also try running some of the following tasks:
 
 ```shell
 npx hardhat accounts
