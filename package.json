@@ -24,7 +24,7 @@
     "@nomiclabs/hardhat-ethers": "2.0.3",
     "@nomiclabs/hardhat-waffle": "2.0.1",
     "@playwright/test": "1.17.1",
-    "@types/node": "16.11.14",
+    "@types/node": "16.11.15",
     "@types/react": "17.0.37",
     "@typescript-eslint/eslint-plugin": "5.8.0",
     "autoprefixer": "10.4.0",
