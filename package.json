@@ -21,7 +21,7 @@
     "react-hot-toast": "2.2.0"
   },
   "devDependencies": {
-    "@nomiclabs/hardhat-ethers": "2.0.3",
+    "@nomiclabs/hardhat-ethers": "2.0.4",
     "@nomiclabs/hardhat-waffle": "2.0.1",
     "@playwright/test": "1.17.1",
     "@types/node": "16.11.19",
