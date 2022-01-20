@@ -23,7 +23,7 @@
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "2.0.4",
     "@nomiclabs/hardhat-waffle": "2.0.2",
-    "@playwright/test": "1.17.2",
+    "@playwright/test": "1.18.0",
     "@types/node": "16.11.21",
     "@types/react": "17.0.38",
     "@typescript-eslint/eslint-plugin": "5.10.0",
