@@ -15,6 +15,7 @@
  - ESlint and Prettier
  - Path aliases
  - Notification Toaster and Helpers
+ - Gas Reporter
  - and more...
 
 ## Use the template

@@ -17,9 +17,10 @@
     "baseUrl": ".",
     "paths": {
       "@utils*": ["src/utils*"],
-      "@components*": ["src/components*"],
+      "@components*": ["src/components*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules", "dist", ".next", "next.config.js"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "./scripts", "./test"],
+  "exclude": ["node_modules", "dist", ".next", "next.config.js"],
+  "files": ["./hardhat.config.ts"]
 }
