@@ -1,6 +1,5 @@
 import '@nomiclabs/hardhat-waffle'
 import 'hardhat-gas-reporter'
-import 'solidity-coverage'
 import '@nomiclabs/hardhat-etherscan'
 import '@nomiclabs/hardhat-waffle'
 
