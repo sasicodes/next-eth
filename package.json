@@ -38,7 +38,7 @@
     "eslint-plugin-unused-imports": "2.0.0",
     "ethereum-waffle": "3.4.0",
     "hardhat": "2.8.4",
-    "hardhat-gas-reporter": "1.0.7",
+    "hardhat-gas-reporter": "1.0.8",
     "husky": "7.0.4",
     "postcss": "8.4.6",
     "tailwindcss": "3.0.22",
