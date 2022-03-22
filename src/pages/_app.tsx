@@ -7,7 +7,7 @@ import { chain, InjectedConnector, Provider } from 'wagmi'
 import { providers } from 'ethers'
 import { WalletConnectConnector } from 'wagmi/connectors/walletConnect'
 
-const rpcUrl = process.env.NEXT_PUBLIC_RPC_URL as string
+const rpcUrl = process.env.RINKEBY_RPC_URL as string
 
 const connectors = [
   new InjectedConnector({
@@ -16,7 +16,7 @@ const connectors = [
   new WalletConnectConnector({
     options: {
       rpc: {
-        '4': rpcUrl
+        '4': rpcUrl // 4 - rinkeby
       },
       qrcode: true
     }
