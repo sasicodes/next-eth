@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import toast from 'react-hot-toast'
 import { useAccount, useNetwork } from 'wagmi'
+
 import WalletModal from './WalletModal'
 
 type Props = {
