@@ -6,12 +6,7 @@ import { useAccount, useNetwork } from 'wagmi'
 
 import WalletModal from './WalletModal'
 
-type Props = {
-  currentAccount: string
-  setCurrentAccount: React.Dispatch<React.SetStateAction<string>>
-}
-
-const Header: React.FC<Props> = () => {
+const Header: React.FC = () => {
   const [{ data: network }, switchNetwork] = useNetwork()
   const [{ data: accountData }] = useAccount()
   const [showWalletModal, setShowWalletModal] = useState(false)
