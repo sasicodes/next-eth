@@ -11151,22 +11151,22 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-wagmi-core@0.1.18:
-  version "0.1.18"
-  resolved "https://registry.yarnpkg.com/wagmi-core/-/wagmi-core-0.1.18.tgz#c1835a1fb18f471ee9e8e427f515e74452b52eeb"
-  integrity sha512-83hFh9YbIBYxStzbUdpahQbwvXUAeMJl5ChUNX9QpqjyDjJt0HbGKQ39FWHGre168Pcm4fYh6Ud99PN+x44gDw==
+wagmi-core@0.1.19:
+  version "0.1.19"
+  resolved "https://registry.yarnpkg.com/wagmi-core/-/wagmi-core-0.1.19.tgz#829a6fd0ab9a8306eac3d61b15d822d1f7e8c475"
+  integrity sha512-pqtN/8OcNAinAHZEG9c6V0SxMVM7sT0nVeaz+WVKEwEjd9BQntHo++qMvMdnivVfsJIoGz7gSFNvjvXRnlY3Ww==
   dependencies:
     "@ethersproject/providers" "^5.5.1"
     eventemitter3 "^4.0.7"
 
-wagmi@0.2.24:
-  version "0.2.24"
-  resolved "https://registry.yarnpkg.com/wagmi/-/wagmi-0.2.24.tgz#cb19bb64cce81a2d8a8367d724941cd23d1d0e7e"
-  integrity sha512-iTs37Fewu4vu4sGHWKsy36vkfT797/gsheY7b0ufcQdghoOMbDb06cBZfOuvlwgVSHgekt6cUU9x1q8Z3NUC+w==
+wagmi@0.2.25:
+  version "0.2.25"
+  resolved "https://registry.yarnpkg.com/wagmi/-/wagmi-0.2.25.tgz#43346739292b7f173f74bff051762380c9fc0961"
+  integrity sha512-RGfpcyUSGlelCaEajhpDIF/IlFl4kqxQX5Pztuk6iAkwKwxMWzj+OeIwMbcdUeOE/b4iKjHNsPH96AhGBlB04Q==
   dependencies:
     "@ethersproject/providers" "^5.5.1"
     "@walletconnect/ethereum-provider" "1.7.5"
-    wagmi-core "0.1.18"
+    wagmi-core "0.1.19"
     walletlink "^2.5.0"
 
 walletlink@^2.5.0:
