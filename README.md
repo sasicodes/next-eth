@@ -16,7 +16,7 @@
  - Path aliases
  - Notification Toaster and Helpers
  - Gas Reporter
- - and more...
+ - and more
 
 ## Use the template
 
