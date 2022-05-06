@@ -1,45 +1,46 @@
 import '../../styles/globals.css'
+import '@rainbow-me/rainbowkit/styles.css'
 
-import { providers } from 'ethers'
+import {
+  apiProvider,
+  configureChains,
+  getDefaultWallets,
+  RainbowKitProvider
+} from '@rainbow-me/rainbowkit'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import { Toaster } from 'react-hot-toast'
-import { chain, Provider } from 'wagmi'
-import { InjectedConnector } from 'wagmi/connectors/injected'
-import { WalletConnectConnector } from 'wagmi/connectors/walletConnect'
+import { chain, createClient, WagmiProvider } from 'wagmi'
 
 const rpcUrl = process.env.RINKEBY_RPC_URL as string
 
-const connectors = [
-  new InjectedConnector({
-    chains: [chain.rinkeby]
-  }),
-  new WalletConnectConnector({
-    options: {
-      rpc: {
-        '4': rpcUrl // 4 - rinkeby
-      },
-      qrcode: true
-    }
-  })
-]
+const { chains, provider } = configureChains(
+  [chain.rinkeby],
+  [apiProvider.alchemy(rpcUrl), apiProvider.fallback()]
+)
 
-const provider = () => new providers.JsonRpcProvider(rpcUrl)
+const { connectors } = getDefaultWallets({
+  appName: 'My Web3 App',
+  chains
+})
+
+const wagmiClient = createClient({
+  autoConnect: true,
+  connectors,
+  provider
+})
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <Provider
-      autoConnect
-      connectorStorageKey="chewy.wallet"
-      connectors={connectors}
-      provider={provider}
-    >
-      <Head>
-        <title>Welcome to Web3!</title>
-      </Head>
-      <Toaster position="bottom-left" />
-      <Component {...pageProps} />
-    </Provider>
+    <WagmiProvider client={wagmiClient}>
+      <RainbowKitProvider coolMode chains={chains}>
+        <Head>
+          <title>Welcome to Web3!</title>
+        </Head>
+        <Toaster position="bottom-left" />
+        <Component {...pageProps} />
+      </RainbowKitProvider>
+    </WagmiProvider>
   )
 }
 
