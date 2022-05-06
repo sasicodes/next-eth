@@ -7,6 +7,7 @@
 ## Stack
  - NextJs
  - TailwindCSS
+ - Wagmi & RainbowKit 🌈
  - Typescript
  - Hardhat
  - Ethers
