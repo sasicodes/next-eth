@@ -19,6 +19,8 @@
  - Gas Reporter
  - and more
 
+![image](https://user-images.githubusercontent.com/29498872/167078019-67528538-b39c-42f4-a326-871deb691f39.png)
+
 ## Use the template
 
 You can either clone the repository or use this template to kick-start your project.
