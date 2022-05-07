@@ -5,12 +5,11 @@
 # Full stack Ethereum starter
 
 ## Stack
- - NextJs
+ - NextJs with Typescript
  - TailwindCSS
  - Wagmi & RainbowKit 🌈
- - Typescript
- - Hardhat
  - Ethers
+ - Hardhat
  - Playwright Test Suite
  - Github workflow and renovate bot
  - ESlint and Prettier
