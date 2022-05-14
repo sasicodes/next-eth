@@ -1408,7 +1408,7 @@
   dependencies:
     playwright-core "1.22.0"
 
-"@rainbow-me/rainbowkit@^0.1.0":
+"@rainbow-me/rainbowkit@0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@rainbow-me/rainbowkit/-/rainbowkit-0.1.0.tgz#36da4017abcbdd60f4952663ad3ce005edee96bb"
   integrity sha512-53rg4OC8XPED0cwnmyZUxK4R++51M2m7Cop4U3Q72MSkDdzi5lebUT1MoSpDKTC8U977vdnyYXcyqNDTM5E32w==
