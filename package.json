@@ -20,7 +20,7 @@
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-hot-toast": "2.2.0",
-    "wagmi": "0.3.5"
+    "wagmi": "0.4.0"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "2.0.6",
