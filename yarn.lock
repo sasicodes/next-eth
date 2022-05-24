@@ -1413,10 +1413,10 @@
     "@types/node" "*"
     playwright-core "1.22.2"
 
-"@rainbow-me/rainbowkit@0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@rainbow-me/rainbowkit/-/rainbowkit-0.1.1.tgz#693172f783b12fc22dae9d2c25a61367683ae3b4"
-  integrity sha512-tulTndeXAhE4sZrSTmfJ7uSzeUZy4U9k64Plp9gsE9XpivETD+7A0RrxR2Axk8T0VcRM3CqvCYvRzmcvIasbww==
+"@rainbow-me/rainbowkit@0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@rainbow-me/rainbowkit/-/rainbowkit-0.1.2.tgz#fb2019deedb2a306ff9565f8b32f911cad9eadaa"
+  integrity sha512-Pr92NDcNRzsR2n+TPkxkROfTYN9vvDZFNfoI5RbmxkWarH7WjA7RjLgCVPIgxvNXdm9N+N9qbBtPP0qAsz61zg==
   dependencies:
     "@vanilla-extract/css" "1.7.0"
     "@vanilla-extract/dynamic" "2.0.2"
