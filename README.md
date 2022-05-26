@@ -2,7 +2,7 @@
 ![](https://cloudflare-ipfs.com/ipfs/QmX6BtuiAQmjLpbqzyBWxRieR4PxSquCzjuFd3vsr1fAGj)
 ###### image source([ethereum](https://ethereum.org/))
 
-# Full stack Ethereum starter
+# Full stack DApp starter
 
 ## Stack
  - NextJs with Typescript
