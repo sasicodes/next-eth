@@ -10790,10 +10790,10 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-wagmi@0.4.8:
-  version "0.4.8"
-  resolved "https://registry.yarnpkg.com/wagmi/-/wagmi-0.4.8.tgz#4fadc14d8947952464fdd8b7f2d3079985e14b1d"
-  integrity sha512-hflZRiO48J5TCXQoKSSOFNNQpYziEA228KkpuDVHAr5C/rfB1hfRmkNjaPKQFF/IP65JJmBR1uWR9U9u/T+BKg==
+wagmi@0.4.9:
+  version "0.4.9"
+  resolved "https://registry.yarnpkg.com/wagmi/-/wagmi-0.4.9.tgz#1c441beff17fbcaee69dabe41e2b225260b091fa"
+  integrity sha512-jXBKSzxGRXTgrK9kGRPNziRWmPu1QRz5FbANyeeUcEeZ0agAZnObkMJSIJJxrajjO6vldscMaVtrAC9bODArPQ==
   dependencies:
     "@coinbase/wallet-sdk" "^3.2.0"
     "@wagmi/core" "^0.3.7"
