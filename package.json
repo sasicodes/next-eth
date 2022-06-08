@@ -39,7 +39,7 @@
     "eslint-plugin-simple-import-sort": "7.0.0",
     "eslint-plugin-unused-imports": "2.0.0",
     "ethereum-waffle": "3.4.4",
-    "hardhat": "2.9.7",
+    "hardhat": "2.9.8",
     "hardhat-gas-reporter": "1.0.8",
     "husky": "8.0.1",
     "postcss": "8.4.14",
