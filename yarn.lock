@@ -6150,10 +6150,10 @@ hardhat-gas-reporter@1.0.8:
     eth-gas-reporter "^0.2.24"
     sha1 "^1.1.1"
 
-hardhat@2.9.8:
-  version "2.9.8"
-  resolved "https://registry.yarnpkg.com/hardhat/-/hardhat-2.9.8.tgz#a09ca8fa2fe3fd0e59851e76c0c371721192122c"
-  integrity sha512-K35GDJ5Vrif3kxQMVw6CJvSbUrIg9le3C+E+K0fZGoyVfIQzZNRtoG2/BQw4aWM0MMkwB4YT/roq/HT0mMLQaw==
+hardhat@2.9.9:
+  version "2.9.9"
+  resolved "https://registry.yarnpkg.com/hardhat/-/hardhat-2.9.9.tgz#05c1015eb73e0230309534b00deeb080724aace0"
+  integrity sha512-Qv7SXnRc0zq1kGXruNnSKpP3eFccXMR5Qv6GVX9hBIJ5efN0PflKPq92aQ5Cv3jrjJeRevLznWZVz7bttXhVfw==
   dependencies:
     "@ethereumjs/block" "^3.6.2"
     "@ethereumjs/blockchain" "^5.5.2"
