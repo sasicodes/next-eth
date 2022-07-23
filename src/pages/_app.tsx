@@ -1,22 +1,16 @@
 import '../../styles/globals.css'
 import '@rainbow-me/rainbowkit/styles.css'
 
-import {
-  apiProvider,
-  configureChains,
-  getDefaultWallets,
-  RainbowKitProvider
-} from '@rainbow-me/rainbowkit'
+import { getDefaultWallets, RainbowKitProvider } from '@rainbow-me/rainbowkit'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import { Toaster } from 'react-hot-toast'
-import { chain, createClient, WagmiProvider } from 'wagmi'
-
-const rpcUrl = process.env.RINKEBY_RPC_URL as string
+import { chain, configureChains, createClient, WagmiConfig } from 'wagmi'
+import { publicProvider } from 'wagmi/providers/public'
 
 const { chains, provider } = configureChains(
-  [chain.rinkeby],
-  [apiProvider.alchemy(rpcUrl), apiProvider.fallback()]
+  [chain.mainnet, chain.polygon, chain.optimism, chain.arbitrum],
+  [publicProvider()]
 )
 
 const { connectors } = getDefaultWallets({
@@ -32,7 +26,7 @@ const wagmiClient = createClient({
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <WagmiProvider client={wagmiClient}>
+    <WagmiConfig client={wagmiClient}>
       <RainbowKitProvider coolMode chains={chains}>
         <Head>
           <title>Welcome to Web3!</title>
@@ -40,7 +34,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Toaster position="bottom-left" />
         <Component {...pageProps} />
       </RainbowKitProvider>
-    </WagmiProvider>
+    </WagmiConfig>
   )
 }
 
