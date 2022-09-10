@@ -29,7 +29,7 @@
     "@playwright/test": "1.25.2",
     "@types/mocha": "9.1.1",
     "@types/node": "18.0.6",
-    "@types/react": "18.0.18",
+    "@types/react": "18.0.19",
     "@typescript-eslint/eslint-plugin": "5.36.2",
     "autoprefixer": "10.4.8",
     "dotenv": "16.0.2",
