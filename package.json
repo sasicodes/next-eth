@@ -31,7 +31,7 @@
     "@types/node": "18.0.6",
     "@types/react": "18.0.19",
     "@typescript-eslint/eslint-plugin": "5.36.2",
-    "autoprefixer": "10.4.8",
+    "autoprefixer": "10.4.9",
     "dotenv": "16.0.2",
     "eslint": "8.23.0",
     "eslint-config-next": "12.3.0",
