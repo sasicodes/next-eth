@@ -14,7 +14,7 @@
     "prettier:check": "prettier --check \"./src/**/*.{ts,tsx}\""
   },
   "dependencies": {
-    "@rainbow-me/rainbowkit": "0.8.0",
+    "@rainbow-me/rainbowkit": "0.8.1",
     "ethers": "5.7.2",
     "next": "13.0.6",
     "react": "18.2.0",
