@@ -9,9 +9,7 @@ import { configureChains, createClient, WagmiConfig } from 'wagmi'
 import { polygon } from 'wagmi/chains'
 import { publicProvider } from 'wagmi/providers/public'
 
-const { chains, provider } = configureChains(
-  [polygon], [publicProvider()]
-)
+const { chains, provider } = configureChains([polygon], [publicProvider()])
 
 const { connectors } = getDefaultWallets({
   appName: 'My Web3 App',
