@@ -10,8 +10,7 @@ import { polygon } from 'wagmi/chains'
 import { publicProvider } from 'wagmi/providers/public'
 
 const { chains, provider } = configureChains(
-  [polygon],
-  [publicProvider()]
+  [polygon], [publicProvider()]
 )
 
 const { connectors } = getDefaultWallets({
