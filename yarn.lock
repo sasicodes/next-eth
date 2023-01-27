@@ -264,10 +264,10 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@ethereum-waffle/chai@4.0.8":
-  version "4.0.8"
-  resolved "https://registry.yarnpkg.com/@ethereum-waffle/chai/-/chai-4.0.8.tgz#055124a92d83c2efa59fa78009d26f5583e64554"
-  integrity sha512-VXebSKExrcXI47S6VrD6unluHp7tz8SrwpUJxFhEskjLY8CNbNQ1WSd390k6E0Ehb7o/jIbqjdMKxkhpIdtrrA==
+"@ethereum-waffle/chai@4.0.9":
+  version "4.0.9"
+  resolved "https://registry.yarnpkg.com/@ethereum-waffle/chai/-/chai-4.0.9.tgz#6b68a9f292a922e0b72b58a41bbe61c9519c0a5d"
+  integrity sha512-uSPLeWwRBIpoh3EtZTkpESbmkz/2/g9nRZ7685oBbmKeEv8pYRf/GjlU0ulw/I109iqzoA8nw64uOOXNlHoCOg==
   dependencies:
     "@ethereum-waffle/provider" "4.0.5"
     debug "^4.3.4"
@@ -4787,12 +4787,12 @@ ethereum-cryptography@^1.0.3:
     "@scure/bip32" "1.1.0"
     "@scure/bip39" "1.1.0"
 
-ethereum-waffle@4.0.8:
-  version "4.0.8"
-  resolved "https://registry.yarnpkg.com/ethereum-waffle/-/ethereum-waffle-4.0.8.tgz#06a61486a7f328d9f990c02eb48ec2105c18dbca"
-  integrity sha512-OngSdzpFa0vnRbFhsVNiNX4Q+LtFaiWF2RyFofyFL85mCI9HBFzfTwFd/LL8F6avJOglm+0b9nHhiOPQMmvAyw==
+ethereum-waffle@4.0.9:
+  version "4.0.9"
+  resolved "https://registry.yarnpkg.com/ethereum-waffle/-/ethereum-waffle-4.0.9.tgz#97b02bdca225156f5eb32ab5109f45beaec78365"
+  integrity sha512-z1X0B2+QrM2Vgr7Tj8Ho4QTrs6GLzm72Oj6bRqFWNVlCB3uIaf8iTLgvSq/UlKsIEh22FNyGkkyA+CAYqFTPeg==
   dependencies:
-    "@ethereum-waffle/chai" "4.0.8"
+    "@ethereum-waffle/chai" "4.0.9"
     "@ethereum-waffle/compiler" "4.0.3"
     "@ethereum-waffle/mock-contract" "4.0.3"
     "@ethereum-waffle/provider" "4.0.5"
