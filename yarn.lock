@@ -264,10 +264,10 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@ethereum-waffle/chai@4.0.9":
-  version "4.0.9"
-  resolved "https://registry.yarnpkg.com/@ethereum-waffle/chai/-/chai-4.0.9.tgz#6b68a9f292a922e0b72b58a41bbe61c9519c0a5d"
-  integrity sha512-uSPLeWwRBIpoh3EtZTkpESbmkz/2/g9nRZ7685oBbmKeEv8pYRf/GjlU0ulw/I109iqzoA8nw64uOOXNlHoCOg==
+"@ethereum-waffle/chai@4.0.10":
+  version "4.0.10"
+  resolved "https://registry.yarnpkg.com/@ethereum-waffle/chai/-/chai-4.0.10.tgz#6f600a40b6fdaed331eba42b8625ff23f3a0e59a"
+  integrity sha512-X5RepE7Dn8KQLFO7HHAAe+KeGaX/by14hn90wePGBhzL54tq4Y8JscZFu+/LCwCl6TnkAAy5ebiMoqJ37sFtWw==
   dependencies:
     "@ethereum-waffle/provider" "4.0.5"
     debug "^4.3.4"
@@ -291,10 +291,10 @@
   resolved "https://registry.yarnpkg.com/@ethereum-waffle/ens/-/ens-4.0.3.tgz#4a46ac926414f3c83b4e8cc2562c8e2aee06377a"
   integrity sha512-PVLcdnTbaTfCrfSOrvtlA9Fih73EeDvFS28JQnT5M5P4JMplqmchhcZB1yg/fCtx4cvgHlZXa0+rOCAk2Jk0Jw==
 
-"@ethereum-waffle/mock-contract@4.0.3":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@ethereum-waffle/mock-contract/-/mock-contract-4.0.3.tgz#3cdd0954f310de55068c6b1315322e18adb5854e"
-  integrity sha512-CcqTfP/CqtIFdTVtmv+ZGJOLAvI2Q1n+XML//cjkAMr03eFDdKHR8Sxe/ytjgQg/FpnTdtaHNr0j0zBHhZjAbQ==
+"@ethereum-waffle/mock-contract@4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@ethereum-waffle/mock-contract/-/mock-contract-4.0.4.tgz#f13fea29922d87a4d2e7c4fc8fe72ea04d2c13de"
+  integrity sha512-LwEj5SIuEe9/gnrXgtqIkWbk2g15imM/qcJcxpLyAkOj981tQxXmtV4XmQMZsdedEsZ/D/rbUAOtZbgwqgUwQA==
 
 "@ethereum-waffle/provider@4.0.5":
   version "4.0.5"
@@ -4847,14 +4847,14 @@ ethereum-cryptography@^1.0.3:
     "@scure/bip32" "1.1.0"
     "@scure/bip39" "1.1.0"
 
-ethereum-waffle@4.0.9:
-  version "4.0.9"
-  resolved "https://registry.yarnpkg.com/ethereum-waffle/-/ethereum-waffle-4.0.9.tgz#97b02bdca225156f5eb32ab5109f45beaec78365"
-  integrity sha512-z1X0B2+QrM2Vgr7Tj8Ho4QTrs6GLzm72Oj6bRqFWNVlCB3uIaf8iTLgvSq/UlKsIEh22FNyGkkyA+CAYqFTPeg==
+ethereum-waffle@4.0.10:
+  version "4.0.10"
+  resolved "https://registry.yarnpkg.com/ethereum-waffle/-/ethereum-waffle-4.0.10.tgz#f1ef1564c0155236f1a66c6eae362a5d67c9f64c"
+  integrity sha512-iw9z1otq7qNkGDNcMoeNeLIATF9yKl1M8AIeu42ElfNBplq0e+5PeasQmm8ybY/elkZ1XyRO0JBQxQdVRb8bqQ==
   dependencies:
-    "@ethereum-waffle/chai" "4.0.9"
+    "@ethereum-waffle/chai" "4.0.10"
     "@ethereum-waffle/compiler" "4.0.3"
-    "@ethereum-waffle/mock-contract" "4.0.3"
+    "@ethereum-waffle/mock-contract" "4.0.4"
     "@ethereum-waffle/provider" "4.0.5"
     solc "0.8.15"
     typechain "^8.0.0"
